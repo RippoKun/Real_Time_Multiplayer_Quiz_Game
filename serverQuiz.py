@@ -174,9 +174,9 @@ if __name__ == '__main__':
         > Press enter to answer a question. The fastest player to press will get to answer.
         > You are given 5 seconds to answer the question.
 
-        > Answer correctly to receive 1 points.
-        > Answering wrong will cause you to lose 0.5 points.
-        > Any playet that manage to gain 5 points first win the quiz game."""
+        > Answer correctly to receive 1 point.
+        > Answering wrong will cause you to lose 0.5 point.
+        > Any player that manage to gain 5 points first win the quiz game."""
     							a.broadcast_all(sock, guide)
     							print("\n" + str(player_num) + " players have joined! Be prepared as the quiz will start in 10 seconds")
     							time.sleep(10)
