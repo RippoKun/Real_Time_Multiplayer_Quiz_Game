@@ -165,7 +165,7 @@ if __name__ == '__main__':
     							a.deliver_player(client_socket, "Welcome to the quiz " + name + "!\nWait for others to join in...")
 
     						if player_joined == player_num:
-    							a.broadcast_all(sock, "\nAll players has entered:")
+    							a.broadcast_all(sock, "\nAll players have entered:")
     							for i in players:
     								a.broadcast_all(sock,">> " + players[i])
     							a.broadcast_all(sock, "\nThe quiz is starting in 10 seconds. Read the guide thoroughly.\n")
