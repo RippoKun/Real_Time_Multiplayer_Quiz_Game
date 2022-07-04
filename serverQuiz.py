@@ -60,7 +60,7 @@ class Quiz:
     		if len(keypress[0]) > 0:
     			who_buzzed = keypress[0][0]
     			a.deliver_player(who_buzzed, "You pressed the buzzer first")
-    			a.deliver_player(who_buzzed, "Input your answer(option a, b, c or d): ")
+    			a.deliver_player(who_buzzed, "Input your answer(option 1, 2, 3 or 4): ")
     			a.broadcast_all(who_buzzed, "Someone already pressed the buzzer, you are too slow")
     			print("Buzzer was pressed")
     			time.sleep(0.01)
